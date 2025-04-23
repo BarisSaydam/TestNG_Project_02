@@ -1,4 +1,4 @@
-package US_01;
+package US_201;
 
 import Utility.BaseDriverParameter;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,13 +6,13 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TC_01 extends BaseDriverParameter {
+public class TC_201 extends BaseDriverParameter {
     int counter =0;
 
     @Test(dataProvider = "data",groups = "Smoke")
     public void programTest(String control) {
 
-        TC_01_Elements elements = new TC_01_Elements(driver);
+        TC_201_Elements elements = new TC_201_Elements(driver);
 
         driver.get("https://techno.study/");
 

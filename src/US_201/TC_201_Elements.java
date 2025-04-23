@@ -1,4 +1,4 @@
-package US_01;
+package US_201;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class TC_01_Elements {
-    public TC_01_Elements(WebDriver driver) {
+public class TC_201_Elements {
+    public TC_201_Elements(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 

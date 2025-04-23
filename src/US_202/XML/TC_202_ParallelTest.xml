@@ -5,7 +5,7 @@
         <parameter name="BrowserTipi" value="chrome"></parameter>
 
         <classes>
-            <class name="US_102.TC_201_CrossCampus_POM"></class>
+            <class name="US_202.TC_202_CrossCampus_POM"></class>
         </classes>
     </test>
 
@@ -13,7 +13,7 @@
         <parameter name="BrowserTipi" value="edge"></parameter>
 
         <classes>
-            <class name="US_102.TC_201_CrossCampus_POM"></class>
+            <class name="US_202.TC_202_CrossCampus_POM"></class>
         </classes>
     </test>
 </suite>
