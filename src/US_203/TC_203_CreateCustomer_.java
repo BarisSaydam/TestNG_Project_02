@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class TC_203_CreateCustomer extends BaseDriverParameter {
+public class TC_203_CreateCustomer_ extends BaseDriverParameter {
 
 
     @Test(groups = {"Smoke"})
@@ -38,7 +38,7 @@ public class TC_203_CreateCustomer extends BaseDriverParameter {
         js.executeScript("window.scrollBy(0, 500);");
 
         elements.fullname.sendKeys(elements.randomName);
-        elements.email.sendKeys("Testdiyar@gmail.com");
+        elements.Email.sendKeys("Testdiyar@gmail.com");
         elements.number.sendKeys("4248957898");
 
         Select select=new Select(elements.chooseourcountry);

@@ -18,7 +18,7 @@ public class TC_203_CreateCustomer_Elements {
     public WebElement fullname;
 
     @FindBy(xpath = "(//*[@class='t-input-block'])[2]/input")
-    public WebElement email;
+    public WebElement Email;
 
     @FindBy(id = "input_1661174990146")
     public WebElement number;
