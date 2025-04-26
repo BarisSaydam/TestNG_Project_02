@@ -95,7 +95,3 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ## 📌 Tags
 
 `#TestNG` `#Selenium` `#Java` `#AutomationTesting` `#QA` `#Maven` `#ParallelTesting` `#TechnoStudy`
-
-)
-- 💎 [YouTube](https://www.youtube.com/@TechnoStudyTR)
-
