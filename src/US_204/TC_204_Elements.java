@@ -16,7 +16,4 @@ public class TC_204_Elements {
 
     @FindBy(xpath = "//*[@class='t986__descr t-descr t-descr_lg']")
     public WebElement dogrulama;
-
-
-
 }

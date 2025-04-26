@@ -17,7 +17,7 @@ public class BaseDriverParameter {
     public WebDriver driver;
     public WebDriverWait wait;
 
-    @BeforeClass
+    @BeforeClass(groups = {"Smoke", "Regression"})
     @Parameters("BrowserTipi")
     public void Setup(String browserTipi) {
         // seleniumdaki static yani başlangıç kısımlar konacak
@@ -37,7 +37,7 @@ public class BaseDriverParameter {
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Smoke", "Regression"})
     public void TearDown() {
         MyFunc.Bekle(3);
         driver.quit();

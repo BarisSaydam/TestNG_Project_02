@@ -1,5 +1,4 @@
 package US_207;
-import Utility.BaseDriver;
 import Utility.BaseDriverParameter;
 import Utility.MyFunc;
 import org.openqa.selenium.JavascriptExecutor;
@@ -13,7 +12,7 @@ import java.util.List;
 
 public class TC_207 extends BaseDriverParameter {
 
-    @Test
+    @Test(groups = "Smoke")
     public void Test() {
         TC_207_Elements elements = new TC_207_Elements(driver);
         Actions actions = new Actions(driver);

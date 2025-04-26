@@ -1,18 +1,14 @@
 package US_206;
 
-
-import Utility.BaseDriver;
 import Utility.BaseDriverParameter;
 import Utility.MyFunc;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
+public class TC_206 extends BaseDriverParameter {
 
-public class TC_206 extends BaseDriver {
-
-
-       @Test()
-       public void test1(){
+    @Test(groups = "Regression")
+    public void test1() {
 
         TC_206_Elements elements = new TC_206_Elements(driver);
 
@@ -24,7 +20,6 @@ public class TC_206 extends BaseDriver {
             elements.programsBtn.click();
             MyFunc.Bekle(1);
 
-
             elements.programs.get(i).click();
             MyFunc.Bekle(1);
 
@@ -33,6 +28,5 @@ public class TC_206 extends BaseDriver {
 
             wait.until(ExpectedConditions.elementToBeClickable(elements.programsBtn));
         }
-
     }
 }

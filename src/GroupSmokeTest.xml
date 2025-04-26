@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuit" parallel="tests" thread-count="2">
+    <test name="test1">
+
+        <!-- Çalışıcak classların yazıldığı bölüm-->
+        <classes>
+            <parameter name="BrowserTipi" value="chrome"></parameter>
+            <class name="US_201.TC_201"></class>
+            <class name="US_202.TC_202_CrossCampus_POM"></class>
+            <class name="US_203.TC_203_CreateCustomer_"></class>
+            <class name="US_207.TC_207"></class>
+        </classes>
+
+        <!-- Hangi grupların çalıştırılacağı bölüm-->
+        <groups>
+            <run>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+    </test>
+    <test name="test2">
+
+        <!-- Çalışıcak classların yazıldığı bölüm-->
+        <classes>
+            <parameter name="BrowserTipi" value="edge"></parameter>
+            <class name="US_201.TC_201"></class>
+            <class name="US_202.TC_202_CrossCampus_POM"></class>
+            <class name="US_203.TC_203_CreateCustomer_"></class>
+            <class name="US_207.TC_207"></class>
+        </classes>
+
+        <!-- Hangi grupların çalıştırılacağı bölüm-->
+        <groups>
+            <run>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+    </test>
+</suite>

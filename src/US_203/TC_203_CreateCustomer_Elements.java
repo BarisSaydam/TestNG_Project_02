@@ -54,6 +54,4 @@ public class TC_203_CreateCustomer_Elements {
 
     int rndIndex = (int) (Math.random() * Names.length);
     String randomName = Names[rndIndex];
-
-
 }

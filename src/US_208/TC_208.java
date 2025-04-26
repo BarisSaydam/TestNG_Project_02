@@ -1,6 +1,5 @@
 package US_208;
 
-import Utility.BaseDriver;
 import Utility.BaseDriverParameter;
 import Utility.MyFunc;
 import org.openqa.selenium.interactions.Actions;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TC_208 extends BaseDriverParameter {
 
-    @Test
+    @Test(groups = "Regression")
     public void Test () {
         driver.get("https://techno.study/");
         TC_208_Elements elements = new TC_208_Elements(driver);

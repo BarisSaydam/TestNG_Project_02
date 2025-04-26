@@ -1,17 +1,16 @@
 package US_205;
 
-import Utility.BaseDriver;
+import Utility.BaseDriverParameter;
 import Utility.MyFunc;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-public class TC_205 extends BaseDriver {
+public class TC_205 extends BaseDriverParameter {
 
     @Test(groups = {"Regression"})
     public void SocialMedia(){
-        LogTutma.info("Submenu Social Media testi basladi!");
 
-        TC_205_Elements sm = new TC_205_Elements();
+        TC_205_Elements sm = new TC_205_Elements(driver);
 
         driver.get("https://techno.study/");
         MyFunc.Bekle(1);
@@ -29,6 +28,5 @@ public class TC_205 extends BaseDriver {
         sm.linkedin.click();
         MyFunc.Bekle(1);
 
-        LogTutma.info("Submenu Social Media testi bitti");
     }
 }

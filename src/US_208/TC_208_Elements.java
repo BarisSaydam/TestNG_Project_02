@@ -7,8 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class TC_208_Elements {
-
-
     public TC_208_Elements (WebDriver driver) {
         PageFactory.initElements(driver,this);
     }

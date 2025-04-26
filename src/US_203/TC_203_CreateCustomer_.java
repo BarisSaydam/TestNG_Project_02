@@ -12,7 +12,6 @@ import java.awt.event.KeyEvent;
 
 public class TC_203_CreateCustomer_ extends BaseDriverParameter {
 
-
     @Test(groups = {"Smoke"})
     public void CreateCustomer() throws InterruptedException, AWTException {
         TC_203_CreateCustomer_Elements elements=new TC_203_CreateCustomer_Elements(driver);
@@ -24,7 +23,6 @@ public class TC_203_CreateCustomer_ extends BaseDriverParameter {
         // Add to card a tikla
         for (int i = 0; i < 11; i++) {
 
-
             robot.keyPress(KeyEvent.VK_TAB);
             robot.keyRelease(KeyEvent.VK_TAB);
             Thread.sleep(200);
@@ -32,7 +30,6 @@ public class TC_203_CreateCustomer_ extends BaseDriverParameter {
         }
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
-
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, 500);");
@@ -58,10 +55,5 @@ public class TC_203_CreateCustomer_ extends BaseDriverParameter {
 
         Assert.assertTrue(elements.thankyoumessage.isDisplayed(), "Thank you message couldnt displayed");
 
-
     }
-
-
-
-
 }
