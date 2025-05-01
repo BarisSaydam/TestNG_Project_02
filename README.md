@@ -68,13 +68,13 @@ Or you can run specific test groups by using TestNG XML files like `smoke.xml` o
 
 | 👤 Name | 🛠️ Role |
 |:--------|:--------|
-| [BarisSaydam](https://github.com/BarisSaydam) | QA Tester |
-| [diyarolmezz](https://github.com/diyarolmezz) | QA Tester |
-| [Ebubekir2025](https://github.com/Ebubekir2025) | QA Tester |
-| [ErdemOzkann](https://github.com/ErdemOzkann) | QA Tester |
-| [palanque92](https://github.com/palanque92) | QA Tester |
-| [AtillaTorosAvci](https://github.com/AtillaTorosAvci) | QA Tester |
-| [GAMZE3845](https://github.com/GAMZE3845) | QA Tester |
+| [Baris Saydam](https://github.com/BarisSaydam) | QA Tester |
+| [Diyar Olmez](https://github.com/diyarolmezz) | QA Tester |
+| [Ebubekir Duvarci](https://github.com/Ebubekir2025) | QA Tester |
+| [Erdem Ozkan](https://github.com/ErdemOzkann) | QA Tester |
+| [Omer Boncuk](https://github.com/palanque92) | QA Tester |
+| [Atilla Toros Avci](https://github.com/AtillaTorosAvci) | QA Tester |
+| [Gamze Batmaz](https://github.com/GAMZE3845) | QA Tester |
 
 ---
 
