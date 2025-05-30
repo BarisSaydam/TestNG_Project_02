@@ -68,7 +68,7 @@ Or you can run specific test groups by using TestNG XML files like `smoke.xml` o
 
 | 👤 Name | 🛠️ Role |
 |:--------|:--------|
-| [Baris Saydam](https://github.com/BarisSaydam) | QA Tester |
+| [Baris Saydam](https://github.com/BarisSaydam) | Github Manager/QA Tester |
 | [Diyar Olmez](https://github.com/diyarolmezz) | QA Tester |
 | [Ebubekir Duvarci](https://github.com/Ebubekir2025) | QA Tester |
 | [Erdem Ozkan](https://github.com/ErdemOzkann) | QA Tester |
